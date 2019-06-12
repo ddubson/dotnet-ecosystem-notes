@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "hugo-simpledoc-theme"
+title = ".Net Overview"
