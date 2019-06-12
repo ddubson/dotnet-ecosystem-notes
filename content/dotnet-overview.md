@@ -7,7 +7,7 @@ weight: 1
 
 Microsoft describes it as:
 
-### It's a **developer platform**
+### > It's a **developer platform**
 
 In short, it's an ecosystem consisting of frameworks and tools that enable
 developers to
@@ -26,16 +26,21 @@ Supporting application development for:
 - gaming
 - Internet of Things (IoT)
 
-### It's **free!**
+### > It supports **C#**, **F#**, and **Visual Basic**
+
+You can write applications in either of the three languages. It is also
+possible to mix and match languages in the same codebase!
+
+### > It's **free!**
 
 It costs nothing to download the suite of tooling and runtime to build and
 run .NET applications
 
-### It's **cross-platform**
+### > It's **cross-platform**
 
-The .Net runtime is supported on Windows, MacOS, Linux, and other operating systems and devices
+The .NET runtime is supported on Windows, MacOS, Linux, and other operating systems and devices
 
-### It's **open source**
+### > It's **open source**
 
 Source code for .NET system and tooling can be found in this Microsoft
 hosted GitHub project --> https://github.com/dotnet
