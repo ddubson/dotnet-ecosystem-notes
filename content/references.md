@@ -5,4 +5,4 @@ anchor: "references"
 weight: 0
 ---
 
-- [Microsoft: What is .Net](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
+- [Microsoft: What is .NET](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)

@@ -1,16 +1,22 @@
 ---
-title: "What even is this .Net?"
+title: "What even is this .NET?"
 date: 2019-06-12T12:41:14-04:00
-anchor: "dotnet-overview"
+anchor: "what-even-is-dotnet"
 weight: 1
 ---
 
-Microsoft describes it as
+Microsoft describes it as:
 
 ### It's a **developer platform**
 
 In short, it's an ecosystem consisting of frameworks and tools that enable
-developers to write code, compile it, and run it within a given runtime.
+developers to
+
+- **write some code**
+- **compile it**
+- **run it**
+
+...within a given runtime.
 
 Supporting application development for:
 
@@ -22,7 +28,8 @@ Supporting application development for:
 
 ### It's **free!**
 
-It costs nothing to download *it* and create applications
+It costs nothing to download the suite of tooling and runtime to build and
+run .NET applications
 
 ### It's **cross-platform**
 
@@ -30,5 +37,5 @@ The .Net runtime is supported on Windows, MacOS, Linux, and other operating syst
 
 ### It's **open source**
 
-Source code for .Net system and tooling can be found in this Microsoft
+Source code for .NET system and tooling can be found in this Microsoft
 hosted GitHub project --> https://github.com/dotnet
