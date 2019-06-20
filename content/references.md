@@ -6,3 +6,4 @@ weight: 0
 ---
 
 - [Microsoft: What is .NET](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
+- [Microsoft: .NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)

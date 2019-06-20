@@ -42,5 +42,5 @@ The .NET runtime is supported on Windows, MacOS, Linux, and other operating syst
 
 ### > It's **open source**
 
-Source code for .NET system and tooling can be found in this Microsoft
-hosted GitHub project --> https://github.com/dotnet
+Source code for .NET system and tooling can be found in this Microsoft and .NET foundation
+hosted [GitHub organization](https://github.com/dotnet)
