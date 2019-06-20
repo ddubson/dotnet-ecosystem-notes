@@ -2,7 +2,7 @@
 title: "The Standard"
 date: 2019-06-13T13:27:24-04:00
 anchor: "the-standard"
-weight: 0
+weight: 1
 ---
 
 ## I want to build...
