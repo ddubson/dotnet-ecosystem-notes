@@ -2,7 +2,7 @@
 title: "1 - Get the .NET SDK and CLI!"
 date: 2019-06-20T17:51:13-04:00
 anchor: "dotnet-cli"
-weight: 0
+weight: 50
 ---
 
 Here's where you start.

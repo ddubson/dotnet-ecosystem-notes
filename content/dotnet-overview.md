@@ -2,7 +2,7 @@
 title: "What even is this .NET?"
 date: 2019-06-12T12:41:14-04:00
 anchor: "what-even-is-dotnet"
-weight: 2
+weight: 1
 ---
 
 Microsoft describes it as:
