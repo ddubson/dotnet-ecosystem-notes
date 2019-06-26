@@ -1,7 +1,7 @@
 ---
-title: "1 - Get the .NET SDK and CLI!"
+title: "Get the .NET Core SDK and CLI!"
 date: 2019-06-20T17:51:13-04:00
-anchor: "dotnet-cli"
+anchor: "dotnet-core-sdk-cli"
 weight: 50
 ---
 
