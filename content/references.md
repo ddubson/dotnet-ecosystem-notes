@@ -25,6 +25,13 @@ weight: 0
 
 ---
 
+### Creating a REST API with .NET Core
+
+- [C# Attributes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/attributes/)
+- [C# Inheritance](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance)
+
+---
+
 ## Downloads
 
 - [.NET Core - Multiplatform](https://dotnet.microsoft.com/download/dotnet-core)

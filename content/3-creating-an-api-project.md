@@ -53,5 +53,53 @@ describe what solution (.sln) and project (.csproj) do.
 
 It's important to note that all the projects in the `tests` directory are never packaged as part of the runtime executable.
 
+---
 
+## Create the first controller
 
+Within `src/WeatherStation.API` project, create a `WeatherStationIntroController.cs` file.
+
+`*.cs` files are C# files. Here's the contents for our first controller:
+
+{{<highlight csharp>}}
+using Microsoft.AspNetCore.Mvc;
+
+namespace WeatherStation.API
+{
+    [Route("/")]
+    public class WeatherStationIntroController : ControllerBase
+    {
+        [HttpGet]
+        public string WeatherStationIntroduction() => "This is the weather station.";
+    }
+}
+{{</highlight>}}
+
+Let's take a moment to break down the contents of this first Controller class.
+
+![First controller](/images/first-controller.svg)
+
+## Run the API project locally
+
+To start the REST API project locally, run...
+
+{{<highlight bash>}}
+dotnet run --project src/WeatherStation.API
+{{</highlight>}}
+
+You should see it bind to ports `5000` (http) and `5001` (https) by default.
+
+Here's an example log output
+
+{{<highlight bash>}}
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\..\AppData\Local\ASP.NET\DataProtection-Keys'
+      as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: G:\workspace\dotnet-weather-station\src\WeatherStation.API
+Now listening on: https://localhost:5001
+Now listening on: http://localhost:5000
+Application started. Press Ctrl+C to shut down.
+{{</highlight>}}
+
+Use Google Chrome browser to navigate to `http://localhost:5000`. It will redirect you to `https://localhost:5001`, proceed with accepting the risk of a self-signed certificate and you should see the output of the root route we described above.
